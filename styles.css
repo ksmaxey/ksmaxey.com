@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+@font-face {
+	font-family: 'bebas';
+  src: url('fonts/BebasNeueBold.otf');
+}
+
+/* HOMEPAGE */
+
+.header {
+	font-family: 'bebas';
+}
+
+.logo {
+	max-width: 100px;
+}
+
+#homepage {
+	max-width: 100%;
+}
+
+button {
+	font-family: 'bebas';
+	font-size: 10vw;
+	max-width: 100%;
+	text-decoration: none;
+	display: inline-block;
+}
