@@ -20,23 +20,23 @@
 }
 
 #homepage {
-	max-width: 100%;
+	width: 100%;
+	max-width: 1000px;
 }
 
 input.WelcomeButton {
 	font-family: 'bebas';
-	width: 300px;
-	padding: 20px;
+	width: 200px;
+	padding: 5px;
 	cursor: pointer;
 	font-weight: bold;
 	font-size: 150%;
-	background: #3366cc;
-	color: #fff;
-	border: 1px solid #3366cc;
-	border-radius: 10px;
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #000000;
 }
 input.WelcomeButton:hover {
-	color: #ffff00;
+	color: #ffffff;
 	background: #000;
 	border: 1px solid #fff;
 }
@@ -83,6 +83,19 @@ input.WelcomeButton:hover {
 /* Float the link section to the right */
 .header-right {
   float: right;
+}
+
+/* FOOTER */
+
+.footer {
+	color: #000000;
+	font-family: 'bebas';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
