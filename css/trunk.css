@@ -68,6 +68,12 @@ input.WelcomeButton:hover {
 	border: 1px solid #fff;
 }
 
+/* ABOUT PAGE */
+
+.bios {
+	background-color: white;
+}
+
 header {
 	height: 60px;
 	position: relative;
@@ -77,6 +83,7 @@ header h1 {
 	color: #9aa6af;
 	text-align: left;
 	font-size: 27px;
+
 	line-height: 60px;
 	font-weight: bold;
 	padding-left: 20px;
@@ -126,37 +133,12 @@ nav li a:hover {
 }
 
 
-/*  REMOVABLE CSS  */
-
-.header-section,
-.body-section {
-	padding: 20px;
-}
-
-.header-section {
-	background-color: #ffffff;
-}
-
-.body-section {
-	background-color: #f4f5f6;
-}
-
-.header-section .placefiller {
-	line-height: 300px;
-}
-
-.body-section .placefiller {
-	line-height: 900px;
-}
-
-
 @media only screen and (max-width: 780px) {
 
 header {
 	height: 60px;
 	z-index: 2;
 	background-color: #060a0c;
-
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -167,50 +149,63 @@ header {
 	-moz-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+
 header h1 {
 	color: #ffffff;
 	text-align: center;
 	padding-left: 0;
 	display: block;
 }
+
 .burger {display: block;}
 
 
 /*  Nav Drawer Layout  */
-nav {position: relative;}
+
+nav {
+	position: relative;
+}
 
 nav ul {
 	height: 100%;
 	overflow-y: auto;
 }
+
 nav li {
 	display: block;
 	float: none;
 }
+
 nav li a {
 	padding: 22px 25px;
 	letter-spacing: 3px;
 	font-size: 14px;
 }
+
 nav li a.logo {
 	display: none;
 }
+
 nav li a.active {
 	color: #fff;
-	background-color: #141e23;
 }
+
 nav li a:hover {
 	color: #fff;
 	background-color: #19252c;
 }
+
 nav li:first-child a.active,
-nav li:first-child a:hover
-{border-radius: 10px 0 0 0;}
+nav li:first-child a:hover {
+	border-radius: 10px 0 0 0;
+}
 
-.header-section {margin-top: 60px;}
-
+.header-section {
+	margin-top: 60px;
+}
 
 /* NAVIGATION ANNIMATION */
+
 nav {
 	width: 93%;
 	height: 100%;
@@ -218,7 +213,6 @@ nav {
 	left: 0;
 	top: 0;
 	margin: 0;
-	background-color: #1d2d35;
 	border-radius: 8px;
 
 	/* starting point */
