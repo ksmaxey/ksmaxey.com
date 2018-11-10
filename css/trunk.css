@@ -74,6 +74,11 @@ input.WelcomeButton:hover {
 	background-color: white;
 }
 
+.bios img {
+	width: 100%;
+	max-width: 500px;
+}
+
 header {
 	height: 60px;
 	position: relative;
